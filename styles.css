@@ -1,0 +1,165 @@
+* {
+    font-family: Arial;
+    /* outline: 2px solid red; */
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-items: center;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    color: #e5e7eb;
+}
+
+
+.hero {
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-left {
+    flex: 2;
+    font-size: 12px;
+}
+
+.hero-right {
+    flex: 1;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border:#3882f6;
+    border-radius: 8px;
+
+}
+
+.button2 {
+    border: 2px solid #f9faf8;
+}
+
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.info {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information {
+    color: #1f2937;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.info-boxes {
+    display: flex;
+    align-items:center;
+    gap: 24px;
+}
+
+.info-box {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    margin: 12px;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    max-width: 900px;
+    flex: 1 1 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    background-color: #3882f6;
+    color:#f9faf8;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px;
+    border-radius: 12px;
+    justify-content: space-around;
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: 900;
+}
